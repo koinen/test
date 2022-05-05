@@ -13,8 +13,8 @@ body {
 
 .navbar{
     display: flex;
-    padding-top: 2rem;
     align-items: center;
+    padding-top: 2rem;
     width: 90%;
     height: auto;
     margin: auto;
@@ -87,6 +87,15 @@ body {
     color: white;
     font-size: 32px;
 }
+
+.card.card-header p{
+    position: absolute;
+    bottom: 24px;
+    left : 36px;
+    color: red;
+    font-size: 32px;
+}
+
 .card-body{
     padding-top: 1rem;
     padding-bottom: 1rem;

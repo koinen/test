@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    flex: 8;
+    margin-right: 5rem;
+}
+
+.others-container{
+    flex: 3;
+}
+
+.note-text{
+    line-height: 1.6;
+}
+
+.others{
+
+}
+
+.note-heading-1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 48px;
+}
+
+.note-heading-2{
+    font-size: 36px;
+    padding-bottom: 1rem;
+}
+.note-heading-3{
+    font-size: 24px;
+    padding-bottom: 2rem;
+}
+
+.image-section{    
+  padding-top: 2rem;
+}
+
+.note-text{
+    font-size: medium;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.note-images{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.other-notes-carousel{
+    display: flex;
+    flex-direction: column;
+}
+
+.other-notes-item{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.other-notes-images{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;  
+}
+.other-notes-details{
+    margin-left: 1rem;
+}
+.other-notes-title{
+    font-size: 24px;
+    opacity: 0.6;
+}
+
+.other-notes-description{
+    opacity: 0.6;
+}
+
+
